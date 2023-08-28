@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Workshop 12</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./assets/icons/logo.svg" alt="logo" />
+      </div>
+      <nav class="menu">
+        <ul class="menu_list">
+          <li class="menu_list_item">
+            <a href="#" class="menu_list_link home">Home</a>
+          </li>
+          <li class="menu_list_item">
+            <a href="" class="menu_list_link">About US</a>
+          </li>
+          <li class="menu_list_item">
+            <a href="#" class="menu_list_link">Service</a>
+          </li>
+          <li class="menu_list_item">
+            <a href="#" class="menu_list_link">Project</a>
+          </li>
+        </ul>
+      </nav>
+      <form action="#" class="select_button">
+        <select name="cities" id="cities" class="city">
+          <option value="english">English</option>
+          <option value="french">French</option>
+          <option value="german">German</option>
+        </select>
+        <button type="submit" class="button">Contact Us</button>
+      </form>
+    </header>
+    <main>
+      <section class="heading">
+        <img src="./assets/images/heading_img.png" alt="heading image" />
+        <div class="heading_content">
+          <h1 class="title_up">We Prepare</h1>
+          <h1 class="title_down">For The <span>Future</span></h1>
+          <p>
+            We provide the best architectural design, contruction, and building
+            maintance services for you.
+          </p>
+          <form action="#" class="heading_buttons">
+            <button class="services">
+              Services<img
+                src="./assets/icons/heading_icon.svg"
+                class="heading_button_icon"
+                alt="heading icon"
+              />
+            </button>
+            <button type="submit" class="project">View Project</button>
+          </form>
+        </div>
+      </section>
+      <section class="featured">
+        <div class="navigation">
+          <h2>Featured Project</h2>
+          <nav class="featured_menu">
+            <ul class="featured_menu_list">
+              <li class="featured_menu_list_item">
+                <a href="#" class="featured_menu_list_link works">All Works</a>
+              </li>
+              <li class="featured_menu_list_item">
+                <a href="" class="featured_menu_list_link">Construction</a>
+              </li>
+              <li class="featured_menu_list_item">
+                <a href="#" class="featured_menu_list_link">Architecture</a>
+              </li>
+              <li class="featured_menu_list_item">
+                <a href="#" class="featured_menu_list_link">Building</a>
+              </li>
+              <li class="featured_menu_list_item">
+                <a href="#" class="featured_menu_list_link">Renovations</a>
+              </li>
+              <li class="featured_menu_list_item">
+                <a href="#" class="featured_menu_list_link">Interior</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="cards">
+          <div class="card_one">
+            <img
+              src="./assets/images/featured_img_1.png"
+              class="image_one"
+              alt="featured img 1"
+            />
+            <div class="card_one_desc">
+              <p>Skyskuy Tower</p>
+              <p>Renovation & Architecture</p>
+            </div>
+          </div>
+          <div class="card_two">
+            <img
+              src="./assets/images/featured_img_2.png"
+              class="image_two"
+              alt="featured img 2"
+            />
+            <div class="card_two_desc">
+              <p>The Fallingwater House</p>
+              <p>Building & Interior</p>
+            </div>
+          </div>
+          <div class="card_three">
+            <img
+              src="./assets/images/featured_img_3.png"
+              class="image_three"
+              alt="featured img 3"
+            />
+            <div class="card_three_desc">
+              <p>The Orange Apartemen</p>
+              <p>Construction & Interior</p>
+            </div>
+          </div>
+        </div>
+        <div class="down_text">
+          <h4>Explore All Projects</h4>
+          <img src="./assets/icons/heading_icon.svg" alt="icon" />
+        </div>
+      </section>
+      <section class="construction">
+        <h4>What Our Client Says</h4>
+        <p class="construction_desc">
+          I am very satisfied with the services. Their team is very professional
+          and efficient in completing our project on time and at a very
+          affordable cost. The quality of their work is very good and I highly
+          recommend this company for any construction project.
+        </p>
+        <p class="full_name">Tom DeLonge</p>
+        <p class="position">CEO, Lexmark</p>
+        <h2 class="title">Leading Way In Building & Civil Construction</h2>
+        <div class="request_contact">
+          <div class="request">
+            <h3>Request A Quote</h3>
+            <p>
+              Complete control over products allow us to our customers the best
+              quality prices and services. We take great pride in everything
+              that we do in Jhontraktor
+            </p>
+            <form action="#" class="name_email">
+              <input
+                type="text"
+                name="username"
+                placeholder="Name"
+                class="name"
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                class="email"
+              />
+            </form>
+            <form action="#" class="phone_service">
+              <input
+                type="text"
+                name="phone"
+                placeholder="Phone"
+                class="phone"
+              />
+              <select name="service" id="service" class="service">
+                <option value="building service">Building Service</option>
+                <option value="civil service">Civil Service</option>
+              </select>
+            </form>
+            <form action="#" class="details">
+              <textarea
+                name="Additional Details"
+                id="Additional Details"
+                placeholder="Additional Details"
+              ></textarea>
+            </form>
+            <form action="#">
+              <button type="submit" class="button_request">
+                Submit Request
+              </button>
+            </form>
+          </div>
+          <div class="contact">
+            <h3>Contact Info</h3>
+            <h4>Our Location</h4>
+            <p>
+              18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav.
+              18, Jakarta Selatan ,12520
+            </p>
+            <h4>Quick Contact</h4>
+            <p>Email : (+62) 877-2469-7246 Call Us : contact@jhontraktor.co</p>
+            <h4>Opening Hours</h4>
+            <p>Monday - Friday 09:00 AM - 06:00 PM</p>
+            <span class="question">
+              Do You Have Any Question, Just Contact Us To Get Help!
+            </span>
+            <form action="#">
+              <button type="submit" class="button_contact">Contact Us</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="head">
+        <img src="./assets/icons/logo_white.svg" alt="logo white" />
+        <div class="subscribe">
+          <h4 class="subscribe_title">Subscribe To Our Newslatter :</h4>
+          <div class="email_address">
+            <h4>Enter your email addres</h4>
+            <img src="./assets/icons/arrow_right.svg" alt="arrow right" />
+          </div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="info_about">
+          <h3 class="info_about_title">About Us</h3>
+          <p class="info_about_desc">
+            We have the confidence to provide the best service for you, with the
+            support of Professional and Certified HR that we currently have and
+            the high-quality materials we use and structured work techniques, we
+            will be able to realize timely completion of work.
+          </p>
+        </div>
+        <div class="info_office">
+          <h3 class="info_office_title">Office</h3>
+          <p class="info_office_desc_one">
+            18 Office Park Building 21th Floor Unit C.
+          </p>
+          <p class="info_office_desc_two">
+            Jl. TB Simatupang Kav. 18, Jakarta Selatan ,12520
+          </p>
+        </div>
+        <div class="info_contact">
+          <h3 class="info_contact_title">Contact</h3>
+          <p class="info_contact_desc_one">Email : contact@jhontracktor.co</p>
+          <p class="info_contact_desc_two">Phone : (+62) 877-2469-7246</p>
+        </div>
+        <div class="info_link">
+          <h3 class="info_link_title">Link</h3>
+          <p class="info_link_home">Home</p>
+          <p class="info_link_about">About Us</p>
+          <p class="info_link_service">Service</p>
+          <p class="info_link_project">Project</p>
+        </div>
+      </div>
+      <div class="social">
+        <a href="#"><img src="./assets/icons/linkedin.svg" alt="linkedin" /></a>
+        <a href="#"><img src="./assets/icons/medium.svg" alt="medium" /></a>
+        <a href="#"
+          ><img src="./assets/icons/Instagram.svg" alt="instagram"
+        /></a>
+        <a href="#"><img src="./assets/icons/twitter.svg" alt="twitter" /></a>
+        <a href="#"><img src="./assets/icons/facebook.svg" alt="facebook" /></a>
+      </div>
+    </footer>
+  </body>
+</html>

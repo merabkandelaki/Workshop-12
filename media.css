@@ -1,0 +1,184 @@
+@media screen and (width <=1440px) {
+
+    /* header */
+    header {
+        padding: 30px 80px 35px 80px;
+    }
+
+    .menu_list {
+        gap: 20px;
+    }
+
+    .menu_list_link {
+        font-size: 20px;
+    }
+
+    .home {
+        border-bottom: 1px solid #FF7420;
+    }
+
+    .select_button {
+        gap: 20px;
+    }
+
+    .city {
+        width: 140px;
+        height: 40px;
+        padding-left: 35px;
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 15px 30px;
+        border-radius: 12px;
+        font-size: 20px;
+    }
+
+    .heading_content {
+        top: 154px;
+        left: 112px;
+    }
+
+    .title_up, .title_down {
+        font-size: 50px;
+    }
+
+    .title_up {
+        margin-bottom: 2px;
+    }
+
+    .heading_content p {
+        width: 550px;
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    .services {
+        padding: 12px 20px;
+        font-size: 20px;
+    }
+
+    .project {
+        padding: 12px 20px;
+        font-size: 20px;
+    }
+
+    /* featured */
+
+    .featured {
+        gap: 45px;
+        padding: 50px 80px;
+    }
+
+    .navigation h2 {
+        font-size: 45px;
+    }
+
+    .featured_menu_list_link {
+        font-size: 18px;
+    }
+
+    .works {
+        border-bottom: 2px solid #191A19;
+    }
+
+    .card_one img, .card_two img, .card_three img {
+        width: 403px;
+        height: 509px;
+    }
+
+    .card_one_desc {
+        left: 65px;
+    }
+
+    .card_two_desc {
+        left: 75px;
+    }
+
+    .card_three_desc {
+        left: 75px;
+    }
+
+    .card_one_desc p, .card_two_desc p, .card_three_desc p {
+        font-size: 20px;
+    }
+
+    /* construction */
+
+    .construction {
+        padding: 39px 80px 0px 80px;
+    }
+
+    .title {
+        width: 1250px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .request {
+        width: 800px;
+        padding: 30px 55px;
+    }
+
+    .request p {
+        width: 710px;
+        font-size: 18px;
+    }
+
+    .name {
+        width: 330px;
+        padding: 23px 80px 23px 40px;
+        font-size: 18px;
+    }
+
+    .email {
+        width: 330px;
+        padding: 23px 80px 23px 40px;
+        font-size: 18px;
+
+    }
+
+    .phone {
+        width: 330px;
+        padding: 23px 80px 23px 40px;
+        font-size: 18px;
+    }
+
+    .service {
+        width: 330px;
+        padding: 23px 80px 23px 40px;
+        font-size: 18px;
+    }
+
+    .details textarea {
+        font-size: 18px;
+        padding-left: 40px;
+    }
+
+    .contact {
+        width: 415px;
+        padding: 30px 55px;
+    }
+    .contact h4 {
+        width: 350px;
+    }
+
+    .contact p {
+        width: 350px;
+    }
+
+    .question {
+        width: 350px;
+        margin-bottom: 70px;
+    }
+
+    /* footer */
+
+    .footer {
+        padding: 40px 80px 50px 80px;
+    }
+
+    .info_about_desc {
+        width: 500px;
+    }
+}
